@@ -1,0 +1,30 @@
+{
+  "name": "sveltepack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varbrad/sveltepack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varbrad/sveltepack/issues"
+  },
+  "homepage": "https://github.com/varbrad/sveltepack#readme",
+  "devDependencies": {
+    "@snowpack/plugin-svelte": "^3.3.0",
+    "prettier": "^2.1.2",
+    "snowpack": "^2.17.0"
+  },
+  "dependencies": {
+    "svelte": "^3.29.7"
+  },
+  "browserslist": ">0.75%, not ie 11, not UCAndroid >0, not OperaMini all"
+}
